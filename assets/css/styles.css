@@ -590,7 +590,7 @@ svg {
 /* For medium devices */
 @media screen and (max-width: 576px) {
   .home__container,
-  .about__container,
+
   .skills-container,
   .services__container,
   .projects__container,
@@ -604,7 +604,7 @@ svg {
     width: 55%;
   }
   .home__container,
-  .about__container,
+
   .skills-container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -625,10 +625,7 @@ svg {
   .about__data {
     order: 1;
   }
-  .services__container,
-  .projects__container {
-    grid-template-columns: repeat(2, 352px);
-  }
+  
   
 }
 /* For large devices */
